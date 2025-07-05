@@ -34,9 +34,6 @@
     border-radius: 50%;
     margin-left: 55em;
 }
-
-        /* ------- GENERAL STYLING ------- */
-        /* Reset default browser styling */
         * {
             margin: 0;
             padding: 0;
@@ -81,8 +78,6 @@
             display: flex;
             align-items: center;
         }
-
-        /* Headings styling */
         h1, h2, h3, h4, h5, h6 {
             margin-bottom: 20px;
             line-height: 1.2;
@@ -119,7 +114,7 @@
             font-size: 1.1rem;
         }
 
-        /* Button styling */
+        /* Button */
         .btn {
             display: inline-block;
             padding: 12px 28px;
@@ -152,8 +147,6 @@
             background-color: transparent;
             transition: var(--transition);
         }
-
-        /* Navbar background on scroll */
         header.scrolled {
             background-color: var(--light-color);
             box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
@@ -583,67 +576,6 @@
         .form-submit:hover {
             background: #92b0c2;
             transform: translateY(-5px);
-        }
-
-        /* ------- FOOTER ------- */
-        footer {
-            background: var(--dark-color);
-            color: var(--light-color);
-            padding: 30px 0;
-            text-align: center;
-        }
-
-        .footer-content {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .footer-logo {
-            font-size: 2rem;
-            font-weight: 700;
-            margin-bottom: 20px;
-        }
-
-        .footer-links {
-            list-style: none;
-            display: flex;
-            justify-content: center;
-            margin-bottom: 20px;
-        }
-
-        .footer-links li {
-            margin: 0 15px;
-        }
-
-        .footer-links a {
-            color: var(--light-color);
-            text-decoration: none;
-        }
-
-        .footer-links a:hover {
-            color: var(--accent-color);
-        }
-
-        .footer-social {
-            margin-bottom: 20px;
-        }
-
-        .footer-social a {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            width: 35px;
-            height: 35px;
-            border-radius: 50%;
-            background: #444;
-            color: var(--light-color);
-            margin: 0 5px;
-            transition: var(--transition);
-        }
-
-        .footer-social a:hover {
-            background: var(--accent-color);
         }
 
         /* ------- ANIMATIONS ------- */
