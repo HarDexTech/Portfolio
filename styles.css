@@ -207,22 +207,6 @@
         .nav-list a:hover::after {
             width: 100%;
         }
-
-        /* Mobile menu toggle */
-        .menu-toggle {
-            display: none;
-            flex-direction: column;
-            cursor: pointer;
-        }
-
-        .bar {
-            width: 25px;
-            height: 3px;
-            background-color: var(--dark-color);
-            margin: 3px 0;
-            transition: var(--transition);
-        }
-
         /* ------- HOME SECTION ------- */
         #home {
             background: linear-gradient(to right, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.7)), 
