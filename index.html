@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ayomide Adesina | Frontend Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+  </head>
+  <body>
+    <!--Header-->
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo">Port<span style="color: #92b0c2">folio</span></div>
+          <ul class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+      <div class="shape shape1"></div>
+      <div class="shape shape2"></div>
+      <div class="shape shape3"></div>
+      <div class="shape shape4"></div>
+
+      <div class="container">
+        <div class="home-content">
+          <h3>Hello, I'm</h3>
+          <h1 id="typing"><em>Adesina Ayomide</em></h1>
+          <div class="div1">
+            <span
+              ><img src="images/pp.png" alt="Profile Picture" class="img1"
+            /></span>
+          </div>
+          <h3>Frontend Developer</h3>
+          <p>
+            I craft beautiful and functional web experiences, bringing ideas to
+            life through code.
+          </p>
+          <p>
+            My job is to build web applications so that it is responsive and
+            user-friendly but at the same time attractive.
+          </p>
+          <a href="#projects" class="btn">View My Work</a>
+
+          <div class="social-icons">
+            <a
+              href="https://www.github.com/HarDexTech"
+              aria-label="GitHub Profile"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/HarDexTech/"
+              aria-label="LinkedIn Profile"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I'm a passionate Web Developer with a strong foundation in web
+              technologies and a keen eye for design. I enjoy turning complex
+              problems into simple, beautiful and intuitive designs. My job is
+              to build web applications so that it is functional, user-friendly
+              and responsive but at the same time attractive.
+            </p>
+            <p>
+              My journey in web development began during college, and since
+              then, I've worked with various clients to bring their digital
+              visions to life. I'm constantly learning and adapting to new
+              technologies to stay at the forefront of web development.
+            </p>
+
+            <div class="skills">
+              <h3>My Skills</h3>
+
+              <div class="skill-item">
+                <div class="skill-name">
+                  <span>HTML</span>
+                  <span>60%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="60"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-name">
+                  <span>CSS</span>
+                  <span>60%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="60"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-name">
+                  <span>JavaScript</span>
+                  <span>5%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="20"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-name">
+                  <span>Bootstrap</span>
+                  <span>20%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="20"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="container">
+        <h2>My Projects</h2>
+
+        <div class="project-filter">
+          <button class="filter-btn active" data-filter="web">
+            Web Development
+          </button>
+        </div>
+
+        <div class="projects-grid">
+          <!--Weather checker-->
+          <div class="project-card" data-category="web">
+            <div class="project-img">
+              <img src="images/project.jpg" alt="Weather Checker Project" />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a
+                    href="https://hardextech.github.io/weather_checker/"
+                    aria-label="View Weather Checker Project"
+                    ><i class="fas fa-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <span class="project-category">Web Development</span>
+              <h3 class="project-title">Weather Checker</h3>
+              <p>
+                Live weather app using vanilla JS and APIs. Features dynamic
+                updates, location search, and mobile-first design. <p><a href="https://github.com/HarDexTech/weather_checker">GitHub</a></p>
+              </p>
+            </div>
+          </div>
+
+          <!-- Colour Generator-->
+          <div class="project-card" data-category="web">
+            <div class="project-img">
+              <img src="images/image.png" alt="Colour Generator Project" />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a
+                    href="https://hardextech.github.io/Colour_Generator/"
+                    aria-label="View Colour Generator Project"
+                    ><i class="fas fa-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <span class="project-category">Web Development</span>
+              <h3 class="project-title">Colour Generator</h3>
+              <p>
+                Interactive tool that generates and copies color codes for web
+                projects. Built with vanilla JS and responsive CSS.<p><a href="https://github.com/HarDexTech/colour_generator">GitHub</a></p>
+              </p>
+            </div>
+          </div>
+
+          <!-- Fashion Static Site-->
+          <div class="project-card" data-category="web">
+            <div class="project-img">
+              <img src="images/img.png" alt="Fashion Static Site Project" />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a
+                    href="https://hardextech.github.io/Fashion_Static_Site/"
+                    aria-label="View Fashion Static Site Project"
+                    ><i class="fas fa-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <span class="project-category">Web Development</span>
+              <h3 class="project-title">Fashion Static Site</h3>
+              <p>
+                Minimalist fashion landing page emphasizing UI aesthetics.
+                Features CSS Grid layouts and micro-interactions to enhance
+                engagement.
+                <p><a href="https://github.com/HarDexTech/Fashion_Static_Site">GitHub</a></p>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <p>
+          Let's work together! Feel free to reach out for any project or
+          collaboration.
+        </p>
+
+        <div class="contact-wrapper">
+          <!-- Contact Information -->
+          <div class="contact-info">
+            <h3>Get In Touch</h3>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Phone: +234 907 703 4646</h4>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Email: adesinayomide2@gmail.com</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form">
+          <h2>Send Me a Message</h2>
+
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="form-control"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="form-control"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                class="form-control"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="form-submit" id="submitBtn">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+        </div>
+
+        <script type="text/javascript">
+          // Initialize EmailJS
+          (function () {
+            emailjs.init({
+              publicKey: "aRQqtveNOuOmshmXl",
+            });
+          })();
+
+          function sendMail(event) {
+            // Prevent form from submitting normally
+            event.preventDefault();
+
+            // Get the submit button and disable it
+            const submitBtn = document.getElementById("submitBtn");
+            const originalText = submitBtn.innerHTML;
+            submitBtn.disabled = true;
+            submitBtn.innerHTML =
+              '<i class="fas fa-spinner fa-spin"></i> Sending...';
+
+            // Get form values
+            const params = {
+              from_name: document.getElementById("name").value,
+              from_email: document.getElementById("email").value,
+              message: document.getElementById("message").value,
+            };
+
+            // Validate that all fields are filled
+            if (!params.from_name || !params.from_email || !params.message) {
+              alert("Please fill in all fields");
+              submitBtn.disabled = false;
+              submitBtn.innerHTML = originalText;
+              return;
+            }
+
+            // Send email using EmailJS
+            emailjs
+              .send("service_62fw30j", "template_jm7letm", params)
+              .then(function (response) {
+                console.log("SUCCESS!", response.status, response.text);
+                alert("Email sent successfully!");
+                // Clear the form
+                document.getElementById("contactForm").reset();
+              })
+              .catch(function (error) {
+                console.error("FAILED...", error);
+                alert(
+                  "Failed to send email. Please try again or contact me directly."
+                );
+              })
+              .finally(function () {
+                // Re-enable the button
+                submitBtn.disabled = false;
+                submitBtn.innerHTML = originalText;
+              });
+          }
+
+          // Add event listener to the form
+          document
+            .getElementById("contactForm")
+            .addEventListener("submit", sendMail);
+        </script>
+      </div>
+    </section>
+  </body>
+</html>
